@@ -6,10 +6,9 @@ pipeline {
                 echo 'Read script from github repo.'
             }
         }
-    stages {
         stage('Build') {
-            steps {
-                echo 'Building..'
+          steps {
+              echo 'Building..'
             }
         }
     }
